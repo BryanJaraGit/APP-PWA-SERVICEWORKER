@@ -14,7 +14,6 @@ var urlToCache = [
         //etc
 ]
 
-
 // Evento de instalacion
 
 self.addEventListener ('install', e => {
@@ -27,7 +26,7 @@ self.addEventListener ('install', e => {
                     })
             })
             .catch(err => {
-                console.log('NO SE HA RESGUARDADO LA CACHE',err);
+                console.log('NO SE HA RESGUARDADO EL CACHE',err);
             })
     )
 });
